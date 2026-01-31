@@ -93,6 +93,16 @@ When to use subagent:
 The subagent runs in isolation and returns only its final summary."""
 
 
+def _build_venv_env() -> dict:
+    env = os.environ.copy()
+    venv_bin = os.path.dirname(sys.executable)
+    env["PATH"] = venv_bin + os.pathsep + env.get("PATH", "")
+    venv_root = os.path.dirname(venv_bin)
+    if os.path.exists(os.path.join(venv_root, "pyvenv.cfg")):
+        env["VIRTUAL_ENV"] = venv_root
+    return env
+
+
 def chat(prompt, history=None):
     """
     The complete agent loop in ONE function.
@@ -149,12 +159,7 @@ def chat(prompt, history=None):
             if block.type == "tool_use":
                 cmd = block.input["command"]
                 print(f"\033[33m$ {cmd}\033[0m")  # Yellow color for commands
-                env = os.environ.copy()
-                venv_bin = os.path.dirname(sys.executable)
-                env["PATH"] = venv_bin + os.pathsep + env.get("PATH", "")
-                venv_root = os.path.dirname(venv_bin)
-                if os.path.exists(os.path.join(venv_root, "pyvenv.cfg")):
-                    env["VIRTUAL_ENV"] = venv_root
+                env = _build_venv_env()
 
                 try:
                     out = subprocess.run(
