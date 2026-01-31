@@ -149,6 +149,12 @@ def chat(prompt, history=None):
             if block.type == "tool_use":
                 cmd = block.input["command"]
                 print(f"\033[33m$ {cmd}\033[0m")  # Yellow color for commands
+                env = os.environ.copy()
+                venv_bin = os.path.dirname(sys.executable)
+                env["PATH"] = venv_bin + os.pathsep + env.get("PATH", "")
+                venv_root = os.path.dirname(venv_bin)
+                if os.path.exists(os.path.join(venv_root, "pyvenv.cfg")):
+                    env["VIRTUAL_ENV"] = venv_root
 
                 try:
                     out = subprocess.run(
@@ -157,7 +163,8 @@ def chat(prompt, history=None):
                         capture_output=True,
                         text=True,
                         timeout=300,
-                        cwd=os.getcwd()
+                        cwd=os.getcwd(),
+                        env=env
                     )
                     output = out.stdout + out.stderr
                 except subprocess.TimeoutExpired:
