@@ -16,7 +16,7 @@ Bash is the gateway to this world:
 
     | You need      | Bash command                           |
     |---------------|----------------------------------------|
-    | Read files    | cat, head, tail, grep                  |
+    | Read files    | cat, head, tail, rg                    |
     | Write files   | echo '...' > file, cat << 'EOF' > file |
     | Search        | find, grep, rg, ls                     |
     | Execute       | python, npm, make, any command         |
@@ -64,7 +64,7 @@ MODEL = os.getenv("MODEL_ID", "claude-sonnet-4-5-20250929")
 TOOL = [{
     "name": "bash",
     "description": """Execute shell command. Common patterns:
-- Read: cat/head/tail, grep/find/rg/ls, wc -l
+- Read: cat/head/tail, find/rg/ls, wc -l
 - Write: echo 'content' > file, sed -i 's/old/new/g' file
 - Subagent: python v0_bash_agent.py 'task description' (spawns isolated agent, returns summary)""",
     "input_schema": {
@@ -80,8 +80,9 @@ SYSTEM = f"""You are a CLI agent at {os.getcwd()}. Solve problems using bash com
 
 Rules:
 - Prefer tools over prose. Act first, explain briefly after.
-- Read files: cat, grep, find, rg, ls, head, tail
+- Read files: cat, find, rg, ls, head, tail
 - Write files: echo '...' > file, sed -i, or cat << 'EOF' > file
+- Never use grep. Use rg instead for searching.
 - Subagent: For complex subtasks, spawn a subagent to keep context clean:
   python v0_bash_agent.py "explore src/ and summarize the architecture"
 
