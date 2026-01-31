@@ -1,0 +1,33 @@
+CASE INDEX CSV FILE SUMMARY
+============================
+
+File: case_idx.csv
+Created: $(date)
+Size: 49 MB
+
+STRUCTURE:
+----------
+Fields:
+1. id              - Unique case identifier
+2. decision_date   - Date the case was decided (YYYY-MM-DD format)
+3. jurisdiction_id - Jurisdiction identifier (references jurisdiction_idx.csv)
+4. court_id        - Court identifier (references court_idx.csv)
+5. path            - Full file system path to the case JSON file
+
+STATISTICS:
+-----------
+Total Cases: 507,816
+Format: CSV (Comma-Separated Values)
+Encoding: UTF-8
+
+SAMPLE RECORDS:
+---------------
+id,decision_date,jurisdiction_id,court_id,path
+8152382,1943-05-11,56,21806,/Users/vs/product/case-law/static-case-law/saved/a2d/31/cases/0647-01.json
+7341752,2009-02-26,62,22299,/Users/vs/product/case-law/static-case-law/downloads/am-tribal-law/9/cases/0224-01.json
+
+RELATED FILES:
+--------------
+- court_idx.csv: Contains court details (id, abbr, name)
+- jurisdiction_idx.csv: Contains jurisdiction details (id, name, name_long)
+

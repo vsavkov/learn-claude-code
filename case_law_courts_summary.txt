@@ -1,0 +1,150 @@
+================================================================================
+CASE LAW COURT EXTRACTION SUMMARY
+================================================================================
+Directory: /Users/vs/product/case-law/eca/downloads
+Files Processed: 253,907 JSON files
+Unique Courts Found: 91 distinct courts
+
+================================================================================
+COMPLETE LIST OF COURTS (Alphabetically)
+================================================================================
+
+1. American Samoa District Court (Am. Samoa Dist. Ct.) - ID: 10010
+2. Appellate Court of the Hopi Tribe (Hopi Tribe Ct. App.) - ID: 22262
+3. Arizona Court of Appeals (Ariz. Ct. App.) - ID: 8807
+4. Arizona Supreme Court (Ariz.) - ID: 9214
+5. Arizona Tax Court (Ariz. Tax Ct.) - ID: 9819
+6. Arkansas Court of Appeals (Ark. Ct. App.) - ID: 13370
+7. Arkansas Supreme Court (Ark.) - ID: 8808
+8. Cherokee Indian Supreme Court (Cherokee Sup. Ct.) - ID: 22298
+9. Cherokee Indian Tribal Court (Cherokee Indian Tribal Ct.) - ID: 22295
+10. Cherokee Nation Judicial Appeals Tribunal (Cherokee Nation Jud. App. Trib.) - ID: 22256
+11. Cherokee Nation Supreme Court (Cherokee Nation Sup. Ct.) - ID: 21627
+12. Cheyenne River Sioux Tribal Court of Appeals (Cheyenne River Sioux Tribal Ct. App.) - ID: 22257
+13. Colville Tribal Court of Appeals (Colville Tribal Ct. App.) - ID: 21608
+14. Commonwealth Court of Pennsylvania (Pa. Commw. Ct.) - IDs: 11887, 24270
+15. Connecticut Appellate Court (Conn. App. Ct.) - ID: 8801
+16. Connecticut Supreme Court (Conn.) - ID: 8803
+17. Coquille Indian Tribal Court (Coquille Indian Tribal Ct.) - ID: 22296
+18. Council of Elders of the Mohegan Tribe (Mohegan Tribe Council of Elders) - ID: 22320
+19. Court of Appeals of Maryland (Md. App. Ct.) - ID: 25266
+20. Court of Appeals of the Confederated Salish and Kootenai Tribes (Confederated Salish and Kootenai Tribes Ct. App.) - ID: 22309
+21. Court of Appeals of the Confederated Tribes of the Grand Ronde Community (Confederated Tribes Grand Ronde Tribal Ct.) - ID: 22312
+22. Court of Judicial Discipline of Pennsylvania (Pa. Jud. Discipline) - ID: 21672
+23. Court of Judicial Discipline of Pennsylvania (Pa. Ct. Jud. Disc.) - ID: 25276
+24. Court of Special Appeals of Maryland (Md. App. Ct.) - ID: 25268
+25. Court on the Judiciary of Delaware (Del. Ct. Jud.) - ID: 21714
+26. Delaware Court of Chancery (Del. Ch.) - ID: 9908
+27. Delaware Court of Errors and Appeals (Del.) - ID: 9735
+28. Delaware Family Court (Del. Fam. Ct.) - ID: 20106
+29. Delaware Superior Court (Del. Super. Ct.) - ID: 9286
+30. Delaware Supreme Court (Del.) - ID: 9322
+31. District of Columbia Court of Appeals (D.C.) - IDs: 11933, 24318
+32. District of Columbia Court of Appeals (DC) - ID: 25265
+33. Eastern Band of Cherokee Indians Cherokee Court (Eastern Band of Cherokee Indians Cherokee Ct.) - ID: 22314
+34. Eastern Band of Cherokee Indians Supreme Court (Eastern Band of Cherokee Indians Sup. Ct.) - ID: 22315
+35. Fort McDowell Yavapai Nation Supreme Court (Fort McDowell Yavapai Nation Sup. Ct.) - ID: 22310
+36. Fort Peck Court of Appeals (Fort Peck Ct. App.) - ID: 21604
+37. Fort Peck Tribal Court (Fort Peck Tribal Ct.) - ID: 21606
+38. Grand Traverse Band of Ottawa and Chippewa Indians Tribal Appellate Court (Grand Traverse Band of Ottawa & Chippewa Indians Tribal App. Ct.) - ID: 22317
+39. Grand Traverse Band of Ottawa and Chippewa Indians Tribal Court (Grand Traverse Band of Ottawa & Chippewa Indians Tribal Ct.) - ID: 22319
+40. High Court of American Samoa (Am. Samoa) - ID: 8768
+41. Ho-Chunk Nation Supreme Court (Ho-Chunk Nation Sup. Ct.) - ID: 21618
+42. Ho-Chunk Nation Trial Court (Ho-Chunk Nation Trial Ct.) - ID: 22259
+43. Leech Lake Band of Ojibwe Tribal Court (Leech Lake Band of Ojibwe Tribal Ct.) - ID: 22292
+44. Little River Band of Ottawa Indians Tribal Court (Little River Band of Ottawa Indians Tribal Ct.) - ID: 22313
+45. Little River Band of Ottawa Indians Tribal Court of Appeals (Little River Band of Ottawa Indians Tribal Ct. App.) - ID: 22323
+46. Maine Supreme Judicial Court (Me.) - ID: 9543
+47. Mohegan Gaming Disputes Court of Appeals (Mohegan Gaming Disputes Ct. App.) - ID: 22297
+48. Mohegan Gaming Disputes Trial Court (Mohegan Gaming Disputes Trial Ct.) - ID: 21643
+49. Mohegan Tribal Court of Appeals (Mohegan Tribal Ct. App.) - ID: 22316
+50. Mohegan Tribal Trial Court (Mohegan Tribal Trial Ct.) - ID: 22303
+51. Navajo Nation Supreme Court (Navajo) - ID: 9984
+52. New Hampshire Supreme Court (N.H.) - ID: 8797
+53. New Jersey Court of Errors and Appeals (N.J.) - ID: 8815
+54. New Jersey Superior Court (N.J. Super. Ct.) - ID: 9359
+55. New York Supreme Court (N.Y. Sup. Ct.) - ID: 8791
+56. New York Supreme Court, Appellate Division (N.Y. App. Div.) - ID: 8994
+57. Oneida Tribal Judicial System, Appellate Court (Oneida Ct. App.) - ID: 22299
+58. Oneida Tribal Judicial System, Trial Court (Oneida Ct. App.) - ID: 22305
+59. Pennsylvania Court of Judicial Discipline (Pa. Ct. Jud. Discipline) - ID: 11937
+60. Rhode Island Supreme Court (R.I.) - ID: 10232
+61. Sac and Fox Nation District Court (Sac & Fox Nation Dist. Ct.) - ID: 22318
+62. Sac and Fox Nation Supreme Court (Sac & Fox Nation Sup. Ct.) - ID: 22264
+63. Shoshone and Arapaho Tribal Court (Shoshone & Arapaho Tribal Ct.) - ID: 21658
+64. Special Tribunal of Pennsylvania (Pa. Spec. Trib.) - ID: 11422
+65. Superior Court of New Jersey, Appellate Division (N.J. Super. App. Div.) - ID: 25269
+66. Superior Court of New Jersey, Chancery Division, Morris County. Probate Part (N.J. Cty. Ct. Prob. Div.) - ID: 25317
+67. Superior Court of Pennsylvania (Pa. Super. Ct.) - ID: 8775
+68. Supreme Court of Pennsylvania (Pa.) - ID: 8832
+69. Supreme Court of Rhode Island (R.I.) - ID: 10179
+70. Supreme Court of the United States (U.S.) - ID: 9009
+71. Swinomish Tribal Court (Swinomish Tribal Ct.) - ID: 22322
+72. Swinomish Tribal Court of Appeals (Swinomish Tribal Ct. App.) - ID: 22325
+73. Tribal Appellate Court of the Little Traverse Bands of Odawa Indians (Little Traverse Bands of Odawa Indians Tribal App. Ct.) - ID: 22321
+74. Tribal Court of the Confederated Tribes of the Grand Ronde Community (Confederated Tribes Grand Ronde Tribal Ct.) - ID: 21625
+75. Tulalip Tribal Court of Appeals (Tulalip Tribal Ct. App.) - ID: 21612
+76. United States Court of Appeals for the District of Columbia (D.C. Cir.) - ID: 9509
+77. United States Court of Appeals for the District of Columbia Circuit (D.C. Cir.) - ID: 8770
+78. United States Court of Appeals for the Eighth Circuit (8th Cir.) - ID: 8821
+79. United States Court of Appeals for the Eleventh Circuit (11th Cir.) - ID: 9031
+80. United States Court of Appeals for the Federal Circuit (Fed. Cir.) - ID: 8955
+81. United States Court of Appeals for the Fifth Circuit (5th Cir.) - ID: 8820
+82. United States Court of Appeals for the First Circuit (1st Cir.) - ID: 8809
+83. United States Court of Appeals for the Fourth Circuit (4th Cir.) - ID: 8954
+84. United States Court of Appeals for the Ninth Circuit (9th Cir.) - ID: 8826
+85. United States Court of Appeals for the Second Circuit (2d Cir.) - ID: 8778
+86. United States Court of Appeals for the Seventh Circuit (7th Cir.) - ID: 9010
+87. United States Court of Appeals for the Sixth Circuit (6th Cir.) - ID: 8864
+88. United States Court of Appeals for the Tenth Circuit (10th Cir.) - ID: 8771
+89. United States Court of Appeals for the Third Circuit (3d Cir.) - ID: 8840
+90. Vermont Supreme Court (Vt.) - ID: 8945
+91. White Earth Band of Chippewa Tribal Court (White Earth Band of Chippewa Tribal Ct.) - ID: 22324
+
+================================================================================
+CATEGORY BREAKDOWN
+================================================================================
+
+Federal Courts (14 courts, 246 cases):
+  - US Supreme Court: 1 court, 19 cases
+  - Federal Circuit Courts: 13 courts, 227 cases
+
+State Courts (30 courts, 248,477 cases):
+  - State Supreme Courts: 13 courts, 200,685 cases
+  - State Appellate Courts: 8 courts, 15,290 cases
+  - State Trial/Special Courts: 9 courts, 32,502 cases
+
+Tribal Courts (31 courts, 989 cases):
+  - Tribal Supreme/Appellate Courts: 19 courts, 660 cases
+  - Tribal Trial Courts: 12 courts, 329 cases
+
+Territorial Courts (2 courts, 361 cases):
+  - American Samoa courts: 2 courts, 361 cases
+
+Other Specialized Courts (14 courts, 3,834 cases):
+  - Judicial discipline, special tribunals, etc.
+
+================================================================================
+TOP 10 COURTS BY CASE VOLUME
+================================================================================
+1. New York Supreme Court, Appellate Division - 170,913 cases
+2. Superior Court of Pennsylvania - 22,358 cases
+3. Supreme Court of Pennsylvania - 13,976 cases
+4. Commonwealth Court of Pennsylvania - 9,392 cases
+5. District of Columbia Court of Appeals - 5,704 cases
+6. New Jersey Court of Errors and Appeals - 3,256 cases
+7. Maine Supreme Judicial Court - 3,193 cases
+8. Arkansas Supreme Court - 3,090 cases
+9. Arizona Court of Appeals - 3,070 cases
+10. Supreme Court of Rhode Island - 2,924 cases
+
+================================================================================
+KEY FINDINGS
+================================================================================
+- Total of 91 distinct courts identified across 253,907 case files
+- Predominant focus on State Supreme Court cases (200,685 cases)
+- Significant representation of Native American Tribal courts (31 courts, 989 cases)
+- New York Appellate Division represents 67% of all cases in the dataset
+- Federal appellate courts present but limited case volume (227 cases)
+- Wide variety of tribal jurisdictions represented from multiple nations/bands
+

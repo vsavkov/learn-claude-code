@@ -1,0 +1,160 @@
+================================================================================
+OPINION TYPES ANALYSIS REPORT
+================================================================================
+Date: $(date)
+Cases Analyzed: 50,000 (sample from 507,816 total cases)
+Data Source: /Users/vs/product/case-law
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+All analyzed cases (100%) contain opinion data.
+Total opinion instances found: 52,608 (average 1.05 opinions per case)
+
+The vast majority of cases contain a single majority opinion (95.0%), while 
+a significant minority include dissenting opinions (2.5%) and concurring 
+opinions (1.8%). Some cases contain multiple opinions of different types.
+
+================================================================================
+OPINION TYPES DISTRIBUTION
+================================================================================
+
+Type                                          Count      Percentage
+---------------------------------------------------------------------------
+majority                                     49,999        95.0%
+dissent                                       1,294         2.5%
+concurrence                                     965         1.8%
+concurring-in-part-and-dissenting-in-part       349         0.7%
+remittitur                                        1         0.0%
+
+================================================================================
+OPINION TYPE DESCRIPTIONS
+================================================================================
+
+1. MAJORITY (95.0%)
+   - The main opinion of the court representing the majority view
+   - Contains the court's reasoning and decision
+   - Field: opinions.text contains the full text
+   - Author field often populated with judge name
+
+2. DISSENT (2.5%)
+   - Written by judges who disagree with the majority decision
+   - Presents alternative reasoning and conclusion
+   - Often longer and more detailed than majority opinions
+   - Examples show dissents can be 30,000+ characters
+
+3. CONCURRENCE (1.8%)
+   - Written by judges who agree with the result but for different reasons
+   - Or agree with part of the majority's reasoning
+   - Generally shorter than majority opinions
+
+4. CONCURRING-IN-PART-AND-DISSENTING-IN-PART (0.7%)
+   - Judge agrees with some aspects but disagrees with others
+   - Hybrid opinion type
+   - Provides nuanced perspective on complex cases
+
+5. REMITTITUR (0.0%)
+   - Extremely rare (1 instance in 50,000 cases)
+   - Order to reduce damages awarded by jury
+   - Special procedural opinion type
+
+================================================================================
+DATA STRUCTURE
+================================================================================
+
+Location in JSON: 
+  - opinions array at root level, OR
+  - casebody.opinions array
+
+Opinion Object Structure:
+  {
+    "type": "majority" | "dissent" | "concurrence" | etc.,
+    "text": "Full text of the opinion...",
+    "author": "Judge name" (optional)
+  }
+
+================================================================================
+STATISTICS BY OPINION TYPE
+================================================================================
+
+MAJORITY opinions:
+  - Present in ~95% of all opinion instances
+  - Average presence: 1.0 per case
+  - Text length: varies from hundreds to thousands of characters
+  - Usually the only opinion in most cases
+
+DISSENT opinions:
+  - Found in ~2.6% of cases (1,294/50,000)
+  - Often very detailed (samples show 30,000+ characters)
+  - Indicates controversial or close decisions
+
+CONCURRENCE opinions:
+  - Found in ~1.9% of cases (965/50,000)
+  - Moderate length (samples: 1,600-8,700 characters)
+  - Shows judicial diversity of reasoning
+
+COMPLEX opinions (concurring-in-part-and-dissenting-in-part):
+  - Found in ~0.7% of cases (349/50,000)
+  - Indicates nuanced judicial positions
+  - Samples show 2,000-21,000 character length
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+1. Universal Coverage: All cases in the dataset contain opinion data
+
+2. Predominance of Majority Opinions: 95% of all opinion instances are 
+   majority opinions, which is expected for legal case reporting
+
+3. Appellate Court Indicator: The presence of dissents (2.5%) and 
+   concurrences (1.8%) suggests the dataset includes many appellate court 
+   cases where multiple judges render opinions
+
+4. Data Quality: All sampled opinions contain actual text, with lengths 
+   ranging from several hundred to 45,000+ characters
+
+5. Author Attribution: Many opinions include author attribution, identifying 
+   the specific judge who wrote the opinion
+
+6. Jurisdictional Diversity: Sample includes federal courts (U.S. Supreme 
+   Court, Circuit Courts), state courts, and tribal courts
+
+================================================================================
+SAMPLE CASES WITH MULTIPLE OPINION TYPES
+================================================================================
+
+Based on the analysis, cases may contain:
+- Majority opinion only (most common)
+- Majority + Dissent
+- Majority + Concurrence
+- Majority + Dissent + Concurrence
+- Majority + Concurring-in-part-and-dissenting-in-part
+
+Example from data:
+- United States v. Jicarilla Apache Nation (2011)
+  Contains: majority, concurrence, dissent (total 3 opinions)
+
+================================================================================
+RECOMMENDATIONS FOR USAGE
+================================================================================
+
+1. To extract majority opinion text:
+   - Filter opinions array for type="majority"
+   - Access the text field
+
+2. To identify controversial cases:
+   - Look for cases with dissenting opinions
+   - These represent significant legal disagreements
+
+3. To analyze judicial reasoning:
+   - Compare majority, dissent, and concurrence opinions
+   - Examine author attributions for judicial patterns
+
+4. Text analysis considerations:
+   - Opinion text length varies significantly
+   - Some opinions exceed 45,000 characters
+   - Text includes legal citations and formatting
+
+================================================================================

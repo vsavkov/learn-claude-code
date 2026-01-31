@@ -1,0 +1,201 @@
+case_id,case_name,decision_date,outcome,confidence,defendant_score,plaintiff_score,reasoning
+8152382,D'Elia & Marks Co. v. Lyon,1943-05-11,defendant,high,14.3,0,"Def=14.3, Pl=0, margin=14.3"
+7341752,Thomas v. Martin,2009-02-26,unclear,low,0,0,No clear disposition indicators found
+7341333,Ho-Chunk Nation Home Ownership Program v. Thundercloud,2010-08-24,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7342452,Cornelius v. Oneida Police Commission,2009-02-10,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7341895,Somers v. Oneida Police Department,2009-06-12,unclear,low,0,0,No clear disposition indicators found
+7343026,Muscogee (Creek) Nation v. Oklahoma Tax Commission,2010-07-09,defendant,high,13.8,0,"Def=13.8, Pl=0, margin=13.8"
+7343059,Butte County v. Hogen,2010-07-13,unclear,low,0,0,No clear disposition indicators found
+7341274,Socula v. Colville Confederated Tribes,2010-04-04,unclear,low,0,0,No clear disposition indicators found
+7342770,Nelson v. Initiative Committee to Reduce Navajo Nation Council,2011-01-04,unclear,low,0,0,No clear disposition indicators found
+7342950,Ho-Chunk Nation v. Koenig,2011-06-20,plaintiff,high,0,14.4,"Def=0, Pl=14.4, margin=14.4"
+7342245,Castaneda,2010-12-20,unclear,low,0,0,No clear disposition indicators found
+7342223,"Ho-Chunk Nation v. Money Centers of America, Inc.",2010-12-28,unclear,low,0,0,No clear disposition indicators found
+7343520,Hollywood Mobile Estates Ltd. v. Seminole Tribe,2011-05-23,unclear,low,0,0,No clear disposition indicators found
+7341472,Navajo Nation Department of Justice ex rel. Nahata'Dziil v. Begay,2010-06-17,unclear,low,0,0,No clear disposition indicators found
+7343358,United States v. Jicarilla Apache Nation,2011-06-13,unclear,low,0,0,No clear disposition indicators found
+7341585,In re A.M.K.,2010-10-08,plaintiff,high,0,24.8,"Def=0, Pl=24.8, margin=24.8"
+7341204,Santibanez v. Tulalip Tribes Housing Department,2010-06-25,unclear,low,0,0,No clear disposition indicators found
+7341652,Oneida Bingo & Casino Slot Department v. Hill,2009-01-08,unclear,low,0,0,No clear disposition indicators found
+7340860,Wolf v. Ho-Chunk Nation Grievance Review Board,2010-05-07,unclear,low,0,0,No clear disposition indicators found
+7343090,Bingham v. Massachusetts,2010-07-30,defendant,high,27.3,0,"Def=27.3, Pl=0, margin=27.3"
+7342509,"Oneida Bingo & Casino, Table Games Department v. Hoffman",2009-08-19,plaintiff,medium,0,7,"Def=0, Pl=7, margin=7"
+7343118,United States v. Gallaher,2010-06-02,defendant,high,29.9,0,"Def=29.9, Pl=0, margin=29.9"
+7342798,Kayenta Township Commission v. Ward,2011-02-25,unclear,low,0,0,No clear disposition indicators found
+7342206,Ho-Chunk Nation v. Ho-Chunk Nation Grievance Review Board,2010-11-02,unclear,low,0,0,No clear disposition indicators found
+7342314,Office of the Navajo Nation President v. Navajo Board of Election Supervisors,2010-10-25,unclear,low,0,0,No clear disposition indicators found
+7342666,Decorah v. Ho-Chunk Nation Election Board,2011-04-29,unclear,low,0,0,No clear disposition indicators found
+7342414,Chee v. Navajo Election Administration,2010-12-28,mixed,medium,27.117434932580746,0,"Mixed outcome (affirmed in part, reversed in part)"
+7342168,Twin v. HCN Grievance Review Board,2010-10-08,defendant,medium,7,0,"Def=7, Pl=0, margin=7"
+7342730,Sherman v. Enbridge Energy LLC,2010-02-15,unclear,low,0,0,No clear disposition indicators found
+7342888,Quarderer v. Ho-Chunk Casino,2011-05-17,defendant,medium,7,0,"Def=7, Pl=0, margin=7"
+7342467,Cornelius v. Oneida Nation Community Library,2009-03-17,unclear,low,0,0,No clear disposition indicators found
+7341960,Camarena v. Jackson,2010-12-02,unclear,low,0,0,No clear disposition indicators found
+7341303,Nissen v. Coquille Economic Development Corp.,2010-12-03,unclear,low,0,0,No clear disposition indicators found
+7341229,Nicholson v. St. Pierre,2010-01-12,unclear,low,0,0,No clear disposition indicators found
+7341767,"Oneida Bingo & Casino, Table Games Department v. Hoffman",2009-02-27,unclear,low,0,0,No clear disposition indicators found
+7341076,Powless v. Steinfeldt,2009-07-13,plaintiff,medium,0,7,"Def=0, Pl=7, margin=7"
+7343002,"Attorney's Process & Investigation Services, Inc. v. Sac & Fox Tribe",2010-07-07,mixed,medium,13.172758572720316,0,"Mixed outcome (affirmed in part, reversed in part)"
+7342582,Campbell v. Best,2011-05-16,unclear,low,0,0,No clear disposition indicators found
+7343400,United States v. Wilgus,2011-03-29,plaintiff,high,0,10.2,"Def=0, Pl=10.2, margin=10.2"
+7342682,Bibeau v. Wilson,2009-06-23,defendant,high,10.5,0,"Def=10.5, Pl=0, margin=10.5"
+7341529,"EXC, Inc. v. Kayenta District Court",2010-09-15,unclear,low,0,0,No clear disposition indicators found
+7341190,Cottrell v. Oneida Bingo & Casino Slot Department,2009-09-10,defendant,medium,9.1,0,"Def=9.1, Pl=0, margin=9.1"
+7342043,Colville Confederated Tribes v. Dogskin,2011-02-02,unclear,low,0,0,No clear disposition indicators found
+7343285,Amerind Risk Management Corp. v. Malaterre,2011-02-15,plaintiff,high,0,11.4,"Def=0, Pl=11.4, margin=11.4"
+7341444,Oliver v. Apache,2010-06-17,unclear,low,0,0,No clear disposition indicators found
+7341716,Stanchik v. Oneida Police Department,2009-01-27,plaintiff,medium,0,7,"Def=0, Pl=7, margin=7"
+7343586,Jachetta v. United States,2011-08-01,unclear,low,0,0,No clear disposition indicators found
+7340933,Office of the Navajo Nation President v. Navajo Nation Council,2010-05-28,defendant,medium,9.0,0,"Def=9.0, Pl=0, margin=9.0"
+7341988,Green v. Green,2011-02-08,unclear,low,0,0,No clear disposition indicators found
+7343179,Lyon v. Gila River Indian Community,2010-11-24,mixed,low,0,0,"Mixed outcome (affirmed in part, reversed in part)"
+7342837,Hasgood v. Cedar Unified School District,2011-05-09,plaintiff,high,0,10.3,"Def=0, Pl=10.3, margin=10.3"
+7343323,United States v. Tony,2011-03-17,unclear,low,0,0,No clear disposition indicators found
+7341323,Brinegar v. Business Department,2010-10-08,unclear,low,0,0,No clear disposition indicators found
+7342300,In re Seanez,2010-10-18,unclear,low,0,0,No clear disposition indicators found
+7341218,Lezard v. Deconto,2009-12-16,unclear,low,0,0,No clear disposition indicators found
+7342698,LaGarde v. Brown,2009-05-28,unclear,low,0,0,No clear disposition indicators found
+7341915,Blaser v. Gauthier,2009-06-03,unclear,low,0,0,No clear disposition indicators found
+7342544,Circle v. Colville Confederated Tribes,2011-03-29,unclear,low,0,0,No clear disposition indicators found
+7343435,Oneida Nation of New York v. Cuomo,2011-05-09,unclear,low,0,0,No clear disposition indicators found
+7343305,Paiute-Shoshone Indians of Bishop Community of Bishop Colony v. City of Los Ange,2011-03-14,defendant,high,14.4,0,"Def=14.4, Pl=0, margin=14.4"
+7341623,Nelson v. Initiative Committee to Reduce Navajo Nation Council,2010-10-18,unclear,low,0,0,No clear disposition indicators found
+7343671,Miami Tribe v. United States,2011-08-30,unclear,low,0,0,No clear disposition indicators found
+7341151,Oneida Human Resource Department v. Oneida Personnel Commission,2009-09-08,unclear,low,0,0,No clear disposition indicators found
+7340962,Office of the Navajo Nation President v. Navajo Nation Council,2010-07-16,unclear,low,0,0,No clear disposition indicators found
+7340766,Metcalf v. Coquille Indian Tribe Election Board,2009-09-10,unclear,low,0,0,No clear disposition indicators found
+7342256,Todacheenie v. Shirley,2010-07-09,unclear,low,0,0,No clear disposition indicators found
+7342488,"Oneida Bingo & Casino, Slot Department v. Charles",2009-06-15,unclear,low,0,0,No clear disposition indicators found
+7342431,In re Seanez,2011-01-25,unclear,low,0,0,No clear disposition indicators found
+7343476,"Crowe & Dunlevy, P.C. v. Stidham",2011-05-27,unclear,low,0,0,No clear disposition indicators found
+7343234,Nanomantube v. Kickapoo Tribe in Kansas,2011-01-31,defendant,high,14.8,0,"Def=14.8, Pl=0, margin=14.8"
+7340749,Metcalf v. Coquille Indian Tribal Council,2009-06-18,unclear,low,0,0,No clear disposition indicators found
+7343546,Fond du Lac Band of Lake Superior Chippewa v. Frans,2011-08-12,defendant,high,14.4,0,"Def=14.4, Pl=0, margin=14.4"
+7342610,Gardner v. Littlejoh,2010-12-23,unclear,low,0,0,No clear disposition indicators found
+7341031,Prevost v. Oneida Bingo & Casino,2009-01-30,unclear,low,0,0,No clear disposition indicators found
+7342363,Clark v. Diné College,2010-10-27,unclear,low,0,0,No clear disposition indicators found
+7342564,Latimer v. Ferguson,2011-03-29,plaintiff,high,0,14.4,"Def=0, Pl=14.4, margin=14.4"
+7342527,C.S. v. Tulalip Tribes Housing Department,2011-02-08,defendant,high,25.1,0,"Def=25.1, Pl=0, margin=25.1"
+7341930,Root v. Cheer,2010-12-06,unclear,low,0,0,No clear disposition indicators found
+7342629,Gardner v. Littlejohn,2011-02-02,unclear,low,0,0,No clear disposition indicators found
+7342598,Squirrell v. Queen,2010-07-15,unclear,low,0,0,No clear disposition indicators found
+7342649,Arendt v. Ward,2011-02-15,unclear,low,0,0,No clear disposition indicators found
+7341434,Lopez v. Mohegan Tribal Gaming Authority,2010-10-06,defendant,high,10.3,0,"Def=10.3, Pl=0, margin=10.3"
+7343209,Arctic Slope Native Ass'n v. Sebelius,2010-12-15,defendant,high,13.9,0,"Def=13.9, Pl=0, margin=13.9"
+7340800,Eastern Band of Cherokee Indians v. Crowe,2010-06-23,unclear,low,0,0,No clear disposition indicators found
+7340820,EBCI v. Crowe,2010-08-03,unclear,low,0,0,No clear disposition indicators found
+7342107,Billie v. Collins,2010-09-13,defendant,high,10.4,0,"Def=10.4, Pl=0, margin=10.4"
+7341411,Littlegeorge v. Hall,2010-09-08,unclear,low,0,0,No clear disposition indicators found
+7342274,Todacheene v. Shirley,2010-07-09,unclear,low,0,0,No clear disposition indicators found
+7342974,Frank v. Ho-Chunk Nation Office of Tribal Enrollment,2011-06-28,unclear,low,0,0,No clear disposition indicators found
+7341795,Hill v. Wallenfang,2009-04-06,unclear,low,0,0,No clear disposition indicators found
+7342392,Jones v. Curley,2010-11-08,unclear,low,0,0,No clear disposition indicators found
+7341370,Powless v. HCN Enrollment Committee,2010-09-02,unclear,low,0,0,No clear disposition indicators found
+7343264,Patchak v. Salazar,2011-01-21,unclear,low,0,0,No clear disposition indicators found
+7341881,Somers v. Oneida Police Department,2009-04-20,unclear,low,0,0,No clear disposition indicators found
+7342380,Clark v. Diné College,2010-12-03,defendant,high,14.6,0,"Def=14.6, Pl=0, margin=14.6"
+7341116,Harms v. Oneida Police Department,2009-07-21,unclear,low,0,0,No clear disposition indicators found
+7341251,Louie v. Colville Confederated Tribes,2010-01-13,defendant,medium,9.8,0,"Def=9.8, Pl=0, margin=9.8"
+7342019,Fort Peck Tribes v. Russell,2013-10-30,defendant,high,29.9,0,"Def=29.9, Pl=0, margin=29.9"
+7342208,White v. Day,2009-09-25,unclear,low,0,0,No clear disposition indicators found
+7339729,Tulalip Tribes v. 2008 White Ford Econoline Van,2013-05-31,unclear,low,0,0,No clear disposition indicators found
+7340001,Fourstar v. Payne,2009-10-22,defendant,high,29.9,0,"Def=29.9, Pl=0, margin=29.9"
+7340046,Magnan v. Holen,2010-04-26,unclear,low,0,0,No clear disposition indicators found
+7340605,Boy v. Bernard,2012-02-01,unclear,low,0,0,No clear disposition indicators found
+7341926,Fort Peck Tribes v. Parker,2013-07-31,unclear,low,0,0,No clear disposition indicators found
+7340420,Fort Peck Tribes v. Walking Eagle,2011-06-30,defendant,high,13.1,0,"Def=13.1, Pl=0, margin=13.1"
+7340312,Fort Peck Tribes v. Escarcega,2011-03-07,defendant,high,13.3,0,"Def=13.3, Pl=0, margin=13.3"
+7339701,K.F. v. Quil Ceda Village Liquor Store,2013-04-29,unclear,low,0,0,No clear disposition indicators found
+7339205,James v. Window Rock Family Court,2012-10-08,unclear,low,0,0,No clear disposition indicators found
+7341325,In re A.J.R.,2013-02-12,defendant,high,13.4,0,"Def=13.4, Pl=0, margin=13.4"
+7341618,In re the Marriage of Eylander,2013-07-30,unclear,low,0,0,No clear disposition indicators found
+7340528,King v. King,2011-10-07,mixed,low,0,0,"Mixed outcome (affirmed in part, reversed in part)"
+7340732,Fort Peck Tribes v. Bear,2012-02-09,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7340063,Adams v. Fort Peck Housing Authority,2010-04-29,unclear,low,0,0,No clear disposition indicators found
+7341111,Iron Cloud v. Silver Wolf Casino,2012-04-13,unclear,low,0,0,No clear disposition indicators found
+7340361,Trottier v. Trottier,2011-04-08,plaintiff,medium,0,9.1,"Def=0, Pl=9.1, margin=9.1"
+7340891,Parisian v. Colville Confederated Tribes,2014-03-05,unclear,low,0,0,No clear disposition indicators found
+7342778,"Grand Canyon Skywalk Development, LLC v. 'Sa' Nyu Wa Inc.",2013-04-26,defendant,high,14.8,0,"Def=14.8, Pl=0, margin=14.8"
+7340481,Stone v. Stone,2011-08-10,unclear,low,0,0,No clear disposition indicators found
+7340686,Neal v. Neal,2012-02-08,unclear,low,0,0,No clear disposition indicators found
+7342887,Los Coyotes Band of Cahuilla & Cupeño Indians v. Jewell,2013-09-04,plaintiff,high,12.5,24.5,"Def=12.5, Pl=24.5, margin=12.0"
+7342584,"Iiná Bá, Inc. v. Navajo Business Regulatory",2014-05-15,defendant,medium,7,0,"Def=7, Pl=0, margin=7"
+7339764,Maney v. Ho-Chunk Nation Election Board,2013-08-28,unclear,low,0,0,No clear disposition indicators found
+7339219,Meadows v. Navajo Nation Labor Commission,2012-11-02,unclear,low,0,0,No clear disposition indicators found
+7343007,Alto v. Black,2013-12-26,defendant,high,10.3,0,"Def=10.3, Pl=0, margin=10.3"
+7341587,Shields v. Smith,2013-07-30,unclear,low,0,0,No clear disposition indicators found
+7341318,In re L.L.R.E.,2013-02-12,unclear,low,0,0,No clear disposition indicators found
+7340169,Decoteau v. Johannessen,2010-10-28,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7340765,Fort Peck Tribes v. Spotted Bird,2012-03-09,plaintiff,low,11.2,15.0,"Def=11.2, Pl=15.0, margin=3.8"
+7341760,Kim Chai Mock v. Mohegan Tribal Gaming Authority,2013-04-25,unclear,low,0,0,No clear disposition indicators found
+7342958,Oneida Tribe of Indians of Wisconsin v. Village of Hobart,2013-10-18,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7341259,Falcon v. Falcon,2012-12-11,unclear,low,0,0,No clear disposition indicators found
+7341120,Fort Peck Tribes v. Fowler,2012-06-08,defendant,high,13.0,0,"Def=13.0, Pl=0, margin=13.0"
+7340069,In re Wise,2010-07-02,unclear,low,0,0,No clear disposition indicators found
+7340665,Fort Peck Tribes v. Boyd,2012-02-08,unclear,low,0,0,No clear disposition indicators found
+7340453,Boxer v. Whiteman,2011-08-08,unclear,low,0,0,No clear disposition indicators found
+7339894,Fort Peck Tribes v. T.M.,2009-07-27,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7343228,Navajo Nation v. United States,2014-04-04,defendant,low,13.5,12.3,"Def=13.5, Pl=12.3, margin=1.1"
+7339617,Wauneka v. Yazzie,2013-01-04,unclear,low,0,0,No clear disposition indicators found
+7339525,Colville Confederated Tribes v. Stensgar,2013-02-25,unclear,low,0,0,No clear disposition indicators found
+7339244,Graven v. Morgan,2012-11-09,unclear,low,0,0,No clear disposition indicators found
+7338946,Honanie v. Acothley,2011-12-29,unclear,low,0,0,No clear disposition indicators found
+7342160,Falcon v. Haller,2009-02-06,unclear,low,0,0,No clear disposition indicators found
+7341909,Fort Peck Tribes v. Myrick,2013-07-31,unclear,low,0,0,No clear disposition indicators found
+7343024,"Bonnet v. Harvest (U.S.) Holdings, Inc.",2014-01-28,plaintiff,high,0,14.6,"Def=0, Pl=14.6, margin=14.6"
+7339987,Fort Peck Housing Authority v. Adams,2009-08-13,defendant,high,11.0,0,"Def=11.0, Pl=0, margin=11.0"
+7340929,Colville Indian Housing Authority v. Edwards,2014-03-11,unclear,low,0,0,No clear disposition indicators found
+7340268,Payne v. Fourstar,2010-12-23,unclear,low,0,0,No clear disposition indicators found
+7340839,Ashkii v. Kayenta Family Court,2013-08-19,unclear,low,0,0,No clear disposition indicators found
+7340411,Payne v. Fourstar,2011-06-20,unclear,low,0,0,No clear disposition indicators found
+7339265,B.B. v. Tulalip Utilities Authority,2012-08-09,defendant,high,14.0,0,"Def=14.0, Pl=0, margin=14.0"
+7340565,Belt v. Fort Peck Tribes,2012-01-13,unclear,low,0,0,No clear disposition indicators found
+7340818,Rockman v. Hocak Wazijaci Nation Election Board,2013-10-18,unclear,low,0,0,No clear disposition indicators found
+7339043,Burnett v. Mohegan Tribal Gaming Authority,2012-12-19,unclear,low,0,0,No clear disposition indicators found
+7341278,Fort Peck Tribes v. Buckles,2013-02-07,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7341524,M.P.M. v. Fort Peck Tribes,2013-06-03,unclear,low,0,0,No clear disposition indicators found
+7342439,Funmaker v. Dept. of Treasury,2012-08-09,plaintiff,medium,0,7,"Def=0, Pl=7, margin=7"
+7340207,Fort Peck Tribes v. Lizotte,2010-11-22,defendant,high,13.2,0,"Def=13.2, Pl=0, margin=13.2"
+7342539,Day v. Kirby,2013-10-28,unclear,low,0,0,No clear disposition indicators found
+7343056,"Dolgencorp, Inc. v. Mississippi Band of Choctaw Indians",2014-03-14,defendant,high,13.9,0,"Def=13.9, Pl=0, margin=13.9"
+7341468,Fort Peck Tribes v. Bull,2013-05-10,plaintiff,high,0,10.8,"Def=0, Pl=10.8, margin=10.8"
+7340127,Red Eagle v. Melbourne,2010-08-24,unclear,low,0,0,No clear disposition indicators found
+7340037,Fort Peck Tribes v. Nation,2010-04-23,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7342388,Gardner v. Littlejohn,2012-04-16,unclear,low,0,0,No clear disposition indicators found
+7342331,Gardner v. Littlejohn,2011-09-28,plaintiff,high,0,13.6,"Def=0, Pl=13.6, margin=13.6"
+7339480,Estate of Jorgenson v. DHS Drilling Co.,2011-12-20,unclear,low,0,0,No clear disposition indicators found
+7341962,Hohman v. Hanson,2013-08-02,unclear,low,0,0,No clear disposition indicators found
+7342638,Miller v. Wright,2012-11-13,defendant,high,14.7,0,"Def=14.7, Pl=0, margin=14.7"
+7339331,In re Certified Question of Law,2010-02-11,unclear,low,0,0,No clear disposition indicators found
+7342617,Tulalip Tribes v. Morris,2014-05-08,plaintiff,low,12.6,13.4,"Def=12.6, Pl=13.4, margin=0.8"
+7339808,Swinomish Indian Tribal Community v. Reid,2011-09-01,unclear,low,0,0,No clear disposition indicators found
+7339857,Jones v. Wise Spirit,2009-02-17,defendant,high,29.9,0,"Def=29.9, Pl=0, margin=29.9"
+7341394,In re the Marriage of Albanese,2013-04-19,defendant,high,14.8,0,"Def=14.8, Pl=0, margin=14.8"
+7341879,Fort Peck Tribes v. Payne,2013-07-31,unclear,low,0,0,No clear disposition indicators found
+7341047,Belt v. Fort Peck Tribal Courts,2012-04-11,unclear,low,0,0,No clear disposition indicators found
+7342288,Chamberlain v. Hall,2011-02-03,unclear,low,0,0,No clear disposition indicators found
+7342259,Brinegar v. Ho-Chunk Nation Grievance Review Board,2010-04-12,plaintiff,high,0,14.5,"Def=0, Pl=14.5, margin=14.5"
+7342419,Twin v. Ho-Chunk Nation Grievance Review Board Department of Administration,2012-07-10,unclear,low,0,0,No clear disposition indicators found
+7339995,Fort Peck Housing Authority v. Lilley,2009-08-13,defendant,high,10.5,0,"Def=10.5, Pl=0, margin=10.5"
+7339796,Swinomish Indian Tribal Community v. Peacher,2011-07-12,unclear,low,0,0,No clear disposition indicators found
+7341983,In re T.J.B.,2013-08-02,unclear,low,0,0,No clear disposition indicators found
+7340022,Rowe v. Fort Peck Tribes,2009-11-10,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7339949,Fort Peck Housing Authority v. Leggins,2009-08-04,defendant,high,13.2,0,"Def=13.2, Pl=0, margin=13.2"
+7339779,Nguyen v. Schmidt-Nguyen,2012-01-24,defendant,high,29.6,0,"Def=29.6, Pl=0, margin=29.6"
+7339734,Matt v. Colville Confederated Tribes,2013-10-23,unclear,low,0,0,No clear disposition indicators found
+7342118,King v. Fort Peck Tribes,2009-02-03,unclear,low,0,0,No clear disposition indicators found
+7341893,Fort Peck Tribes v. Beauchamp,2013-07-31,unclear,low,0,0,No clear disposition indicators found
+7339008,Brown,2012-10-12,unclear,low,0,0,No clear disposition indicators found
+7342920,Fletcher v. United States,2013-09-17,plaintiff,high,0,13.4,"Def=0, Pl=13.4, margin=13.4"
+7339573,Gargano v. Mohegan Tribal Gaming Authority,2013-06-05,unclear,low,0,0,No clear disposition indicators found
+7339168,Navajo Housing Authority v. Johns,2012-09-10,unclear,low,0,0,No clear disposition indicators found
+7340786,Fort Peck Tribes v. Magnan,2012-02-10,defendant,high,15.0,0,"Def=15.0, Pl=0, margin=15.0"
+7340545,First v. Fort Peck Tribal Court,2012-01-03,unclear,low,0,0,No clear disposition indicators found
+7340404,Rosebluff v. Runsabove,2011-04-26,plaintiff,medium,0,7,"Def=0, Pl=7, margin=7"
+7340245,In re Smith,2010-12-21,unclear,low,0,0,No clear disposition indicators found
+7339676,Swinomish Indian Tribal Community v. Reid,2012-03-15,unclear,low,0,0,No clear disposition indicators found
+7341556,Reum v. Hanson,2013-07-24,unclear,low,0,0,No clear disposition indicators found
+7341300,Birds Bill v. Birds Bill,2013-02-12,plaintiff,high,0,14.6,"Def=0, Pl=14.6, margin=14.6"
+7339743,Fort Peck Tribes v. Barrera,2012-01-30,defendant,high,13.2,0,"Def=13.2, Pl=0, margin=13.2"
+7342062,Bushman v. Berglee,2013-12-20,unclear,low,0,0,No clear disposition indicators found
+7342557,Ho-Chunk Nation v. Christopherson,2013-11-18,unclear,low,0,0,No clear disposition indicators found

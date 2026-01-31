@@ -1,0 +1,6 @@
+opinion_type,count,percentage,description
+majority,49999,95.0,Main opinion representing the court's decision and reasoning
+dissent,1294,2.5,Opinion disagreeing with the majority decision
+concurrence,965,1.8,Opinion agreeing with result but offering different reasoning
+concurring-in-part-and-dissenting-in-part,349,0.7,Opinion agreeing with some aspects and disagreeing with others
+remittitur,1,0.0,Order to reduce damages (extremely rare)
