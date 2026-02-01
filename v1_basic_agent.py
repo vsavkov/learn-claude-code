@@ -37,7 +37,7 @@ Claude Code has ~20 tools. But these 4 cover 90% of use cases:
     | edit_file  | Surgical changes     | Replace a function         |
 
 With just these 4 tools, the model can:
-  - Explore codebases (bash: find, grep, ls)
+  - Explore codebases (bash: find, rg, ls)
   - Understand code (read_file)
   - Make changes (write_file, edit_file)
   - Run anything (bash: python, npm, make)
@@ -90,7 +90,7 @@ TOOLS = [
     # Can run any command: git, npm, python, curl, etc.
     {
         "name": "bash",
-        "description": "Run a shell command. Use for: ls, find, grep, git, npm, python, etc.",
+        "description": "Run a shell command. Use for: ls, find, rg, git, npm, python, etc.",
         "input_schema": {
             "type": "object",
             "properties": {
@@ -189,6 +189,16 @@ def safe_path(p: str) -> Path:
     return path
 
 
+def _build_venv_env() -> dict:
+    env = os.environ.copy()
+    venv_bin = os.path.dirname(sys.executable)
+    env["PATH"] = venv_bin + os.pathsep + env.get("PATH", "")
+    venv_root = os.path.dirname(venv_bin)
+    if os.path.exists(os.path.join(venv_root, "pyvenv.cfg")):
+        env["VIRTUAL_ENV"] = venv_root
+    return env
+
+
 def run_bash(command: str) -> str:
     """
     Execute shell command with safety checks.
@@ -209,7 +219,8 @@ def run_bash(command: str) -> str:
             cwd=WORKDIR,
             capture_output=True,
             text=True,
-            timeout=60
+            timeout=60,
+            env=_build_venv_env()
         )
         output = (result.stdout + result.stderr).strip()
         return output[:50000] if output else "(no output)"
