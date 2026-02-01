@@ -18,7 +18,7 @@ Bash is the gateway to this world:
     |---------------|----------------------------------------|
     | Read files    | cat, head, tail, rg                    |
     | Write files   | echo '...' > file, cat << 'EOF' > file |
-    | Search        | find, grep, rg, ls                     |
+    | Search        | find, rg, ls                           |
     | Execute       | python, npm, make, any command         |
     | **Subagent**  | python v0_bash_agent.py "task"         |
 
