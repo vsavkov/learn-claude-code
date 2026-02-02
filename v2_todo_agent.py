@@ -32,12 +32,15 @@ Now both YOU and the MODEL can see the plan. The model can:
   - Stay focused on one task at a time
 
 Key Constraints (not arbitrary - these are guardrails):
-------------------------------------------------------
-    | Rule              | Why                              |
-    |-------------------|----------------------------------|
-    | Max 20 items      | Prevents infinite task lists     |
-    | One in_progress   | Forces focus on one thing        |
-    | Required fields   | Ensures structured output        |
+-------------------------------------------------------------------------
+    | Rule              | Why                                           |
+    |-------------------|-----------------------------------------------|
+    | Max 20 items      | Prevents infinite task lists                  |
+    | One in_progress   | Forces focus on one thing                     |
+    | Required fields   | Ensures structured output                     |
+    | Use rg aka ripgrep| Provides superior performance                 |
+    | Prefer rg to find | Provides performance superior to find         |
+    | Never use grep    | Performs purely when number of files is large |
 
 The Deep Insight:
 ----------------
@@ -90,6 +93,9 @@ class TodoManager:
     1. Max 20 items: Prevents the model from creating endless lists
     2. One in_progress: Forces focus - can only work on ONE thing at a time
     3. Required fields: Each item needs content, status, and activeForm
+    4. Use rg aka ripgrep: Provides superior performance
+    5. Prefer rg to find: Provides performance superior to find
+    6. Never use grep: Performs purely when number of files is large
 
     The activeForm field deserves explanation:
     - It's the PRESENT TENSE form of what's happening
@@ -114,6 +120,8 @@ class TodoManager:
         - Status must be: pending | in_progress | completed
         - Only ONE item can be in_progress at a time
         - Maximum 20 items allowed
+        - Use rg NOT grep
+        - Prefer rg to find
 
         Returns:
             Rendered text view of the todo list
