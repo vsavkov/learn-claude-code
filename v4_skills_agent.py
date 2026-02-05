@@ -513,6 +513,16 @@ def safe_path(p: str) -> Path:
     return path
 
 
+def _build_venv_env() -> dict:
+    env = os.environ.copy()
+    venv_bin = os.path.dirname(sys.executable)
+    env["PATH"] = venv_bin + os.pathsep + env.get("PATH", "")
+    venv_root = os.path.dirname(venv_bin)
+    if os.path.exists(os.path.join(venv_root, "pyvenv.cfg")):
+        env["VIRTUAL_ENV"] = venv_root
+    return env
+
+
 def run_bash(cmd: str) -> str:
     """Execute shell command."""
     if any(d in cmd for d in ["rm -rf /", "sudo", "shutdown"]):
@@ -520,7 +530,8 @@ def run_bash(cmd: str) -> str:
     try:
         r = subprocess.run(
             cmd, shell=True, cwd=WORKDIR,
-            capture_output=True, text=True, timeout=60
+            capture_output=True, text=True, timeout=60,
+            env=_build_venv_env()
         )
         return ((r.stdout + r.stderr).strip() or "(no output)")[:50000]
     except Exception as e:
