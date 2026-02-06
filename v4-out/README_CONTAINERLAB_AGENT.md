@@ -329,3 +329,63 @@ Same as parent project.
 ```bash
 python containerlab_agent.py "what can you help me with?"
 ```
+
+## API Gateway
+
+A query-only HTTP gateway is available via FastAPI.
+
+### Start
+
+```bash
+pip install -r requirements.txt
+uvicorn api_gateway:app --host 127.0.0.1 --port 8080
+```
+
+### Example request
+
+```bash
+curl -s http://127.0.0.1:8080/agent/query \
+  -H 'Content-Type: application/json' \
+  -d '{"query":"show all running labs"}'
+```
+
+### Docs
+
+See `API_GATEWAY.md` for schema details and response format.
+
+## Next.js Web UI (via Dedicated BFF)
+
+This project now includes:
+
+- `bff/`: Express + TypeScript server that calls FastAPI gateway
+- `ui/`: Next.js dashboard/chat UI that calls only BFF endpoints
+
+### Start Gateway
+
+```bash
+uvicorn api_gateway:app --host 127.0.0.1 --port 8080
+```
+
+### Start BFF
+
+```bash
+cd bff
+npm install
+npm run dev
+```
+
+### Start UI
+
+```bash
+cd ui
+npm install
+npm run dev
+```
+
+### Open UI
+
+```text
+http://127.0.0.1:3000
+```
+
+For full details, see `WEB_UI.md`.
