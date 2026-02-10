@@ -113,6 +113,74 @@ body {
   cursor: not-allowed;
 }
 
+.query-actions {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.examples {
+  margin-left: auto;
+  position: relative;
+}
+
+.examples-toggle {
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  padding: 0.65rem 0.9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.examples-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.4rem);
+  min-width: 320px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(31, 42, 50, 0.14);
+  z-index: 10;
+  padding: 0.3rem;
+}
+
+.examples-item {
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: transparent;
+  color: var(--ink);
+  padding: 0.55rem 0.6rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.84rem;
+}
+
+.examples-item:hover {
+  background: #f0e7d6;
+}
+
+@media (max-width: 700px) {
+  .query-actions {
+    flex-wrap: wrap;
+  }
+
+  .examples {
+    margin-left: 0;
+  }
+
+  .examples-menu {
+    min-width: 100%;
+    left: 0;
+    right: auto;
+  }
+}
+
 .answer {
   white-space: pre-wrap;
   font-family: 'IBM Plex Mono', monospace;
