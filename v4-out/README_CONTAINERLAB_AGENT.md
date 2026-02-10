@@ -389,3 +389,29 @@ http://127.0.0.1:3000
 ```
 
 For full details, see `WEB_UI.md`.
+
+## FE App (No CORS, Single Origin)
+
+Use `fe/` when you want one application to serve UI and translate API requests to the gateway without browser CORS.
+
+### Start Gateway
+
+```bash
+uvicorn api_gateway:app --host 127.0.0.1 --port 8080
+```
+
+### Start FE
+
+```bash
+cd fe
+npm install
+npm run dev
+```
+
+### Open FE
+
+```text
+http://127.0.0.1:3000
+```
+
+See `FE.md` for architecture and API details.
